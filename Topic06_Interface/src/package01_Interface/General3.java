@@ -3,14 +3,14 @@ package package01_Interface;
 // interface with all types of data members/ variables
 interface Child3{
 	int           defaultInt    = 10;
-	
+
 //  protected data member is not allowed
-//	protected int protectedInt  = 20;
+//	 protected int protectedInt  = 20;
 	
 	public int    publicInt     = 30;
 	
 //  private data member is not allowed
-//	private int   privateInt    = 40;
+//	 private int   privateInt    = 40;
 	
 	static int    staticInt     = 50;
 	

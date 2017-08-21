@@ -11,10 +11,9 @@ class SavingBankAccount extends BankAccount{
 }
 
 public class Banking {
-
 	public static void main(String[] args) {
 		SavingBankAccount sba = new SavingBankAccount();
-		sba.accountNumber              = 5001;
+		sba.accountNumber     = 5001;
 		sba.name                       = "Neil Patrick Harris";
 		sba.balance                    = 1000.0;
 		sba.dailyTransactionCountLimit = 50;

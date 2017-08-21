@@ -1,6 +1,6 @@
 package package01_AbstractClass;
 
-// abstract class with unimplemented methods
+//abstract class with unimplemented methods or abstract method
 abstract class Child8{
 	public int a;
 	public abstract void unimplementedMethod();

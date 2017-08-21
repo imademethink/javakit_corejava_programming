@@ -1,6 +1,6 @@
 package package01_AbstractClass;
 
-// abstract class with only implemented method
+// abstract class can contain only implemented method
 abstract class Child3{
 	public void dance(){
 		System.out.println("Child3 dancing");

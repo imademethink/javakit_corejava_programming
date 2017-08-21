@@ -25,9 +25,9 @@ public class Method03_Sorting {
 		arrayListString.add("dfg");
 		arrayListString.add("avf");
 		arrayListString.add("bbb");
-		System.out.println("Before sorting Int type Arraylist : " + arrayListString);
+		System.out.println("Before sorting String type Arraylist : " + arrayListString);
 		Collections.sort(arrayListString);
-		System.out.println("After sorting Int type Arraylist  : " + arrayListString);
+		System.out.println("After sorting String type Arraylist  : " + arrayListString);
 		
 		// sort Object type
 		ArrayList<Employee> empArrayList = new ArrayList<Employee>();

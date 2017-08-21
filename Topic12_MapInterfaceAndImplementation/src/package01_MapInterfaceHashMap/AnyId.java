@@ -4,7 +4,7 @@ import java.security.SecureRandom;
 import java.util.Random;
 
 class AnyId{
-	// random alphanumeric string generator
+	// random alphanumeric string generator - static method
 	public static String getRandomAlphanumericAnyId(){
 		Random objRandom 		= new SecureRandom();
 		String strAlphabets 	= "abcdefghjkmnpqrstuvwxyzABCDEFGHJKMNPQRSTUVWXYZ0123456789";

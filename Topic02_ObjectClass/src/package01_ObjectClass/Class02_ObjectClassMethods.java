@@ -26,11 +26,6 @@ class Pupil implements Cloneable{
 	 }
 	 @Override
 	 public int hashCode() {
-//	     int hashCode = 1;
-//
-//	     hashCode = hashCode * 37 + this.name.hashCode();
-//	     hashCode = hashCode * 37 + this.department.hashCode();
-//	     return hashCode;
 		 return 0;
 	 }
 	 

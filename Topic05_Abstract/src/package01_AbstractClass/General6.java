@@ -22,8 +22,10 @@ public class General6 extends Child6{
 		
 		g6.publicMethod();
 		
+//		Private members are not visible in derived class
 //		g6.privateMethod();
 		
+//	     Incorrect way to access static members from base class
 //		g6.staticMethod();
 		General6.staticMethod();
 		

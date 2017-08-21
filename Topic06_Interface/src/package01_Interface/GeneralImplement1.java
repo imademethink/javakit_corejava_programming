@@ -6,6 +6,7 @@ interface Child7{
 	public void unimplementedMethod();
 }
 
+//chained interface with unimplemented methods
 interface Parent7 extends Child7{
 
 }

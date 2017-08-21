@@ -50,9 +50,6 @@ public class Class01_ObjectClassMethods{
 		System.out.println("getClass().getName() method output: \n  " + objStudent.getClass().getName());
 		System.out.println("getClass().getSimpleName() method output: \n  " + objStudent.getClass().getSimpleName());
 		System.out.println("getClass().getCanonicalName() method output: \n  " + objStudent.getClass().getCanonicalName());
-		
-		// equals() method demo
-		
 	}
 
 }

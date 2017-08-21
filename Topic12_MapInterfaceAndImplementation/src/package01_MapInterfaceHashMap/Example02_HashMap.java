@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class Example02_HashMap {
 	
-	// Allowed key    types another example
+	// Allowed key types another example
 	public static void main(String[] args) {
 		Map<String, String> map1= new HashMap<String, String>();
 		map1.put("k1","value1");

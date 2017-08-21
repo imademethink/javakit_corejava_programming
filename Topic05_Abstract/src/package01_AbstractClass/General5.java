@@ -20,13 +20,16 @@ public class General5 extends Child5{
 		System.out.println(g5.protectedInt++);
 		
 		System.out.println(g5.publicInt++);
-		
+
+//		Private members are not visible in derived class
 //		System.out.println(g5.privateInt);
 
+//     Incorrect way to access static members from base class
 //		System.out.println(g5.staticInt);
 		System.out.println(Child5.staticInt++);
 		
 		System.out.println(g5.finalInt);
+//		Final variables can not be re-assigned any value
 //		g5.finalInt = 61;
 
 		System.out.println("Inside General5 class");

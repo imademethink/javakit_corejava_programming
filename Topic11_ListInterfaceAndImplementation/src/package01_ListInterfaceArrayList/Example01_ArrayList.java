@@ -7,7 +7,7 @@ import java.util.List;
 public class Example01_ArrayList {
 
 	public static void main(String[] args) {
-		List<String> listString = new ArrayList<String>();
+		List<String> listString = new ArrayList<String>(3);
 		// add method
 		listString.add("Shirt");
 		listString.add("Pant");

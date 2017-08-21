@@ -1,20 +1,20 @@
 package package01_ListInterfaceLinkedList;
 
-import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Example04_LinkedList {
 
 	public static void main(String[] args) {
-		List<Product> listProduct = new ArrayList<Product>();
+		List<Product> listProduct = new LinkedList<Product>();
 		// add method
 		listProduct.add(new Product(200, "Shirt", 650));
 		listProduct.add(new Product(210, "Pant", 980));
 		listProduct.add(new Product(301, "Belt", 250));
 		System.out.println("List of type Product");
 		
-		List<Product> listProductTmp = new ArrayList<Product>();
+		List<Product> listProductTmp = new LinkedList<Product>();
 		listProductTmp.add( new Product(501, "Perfume", 680));
 		listProductTmp.add( new Product(588, "Shoes", 1980));
 		

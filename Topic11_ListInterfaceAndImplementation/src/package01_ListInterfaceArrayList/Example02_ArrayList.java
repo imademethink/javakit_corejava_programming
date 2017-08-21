@@ -14,7 +14,7 @@ public class Example02_ArrayList {
 		listProduct.add(new Product(200, "Shirt", 650));
 		listProduct.add(new Product(210, "Pant", 980));
 		listProduct.add(new Product(301, "Belt", 250));
-		System.out.println("List of type Product");
+		System.out.println("ArrayList of type Product");
 		
 		List<Product> listProductTmp = new ArrayList<Product>();
 		listProductTmp.add( new Product(501, "Perfume", 680));
@@ -22,7 +22,7 @@ public class Example02_ArrayList {
 		
 		// addAll method
 		listProduct.addAll(listProductTmp);
-		System.out.println("List of type Product after addition");
+		System.out.println("ArrayList of type Product after addition");
 		
 		// get method
 		Product prodTmp = listProduct.get(0);

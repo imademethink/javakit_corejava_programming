@@ -1,6 +1,6 @@
 package package01_CollectionsUtility;
 
-class Employee{
+public class Employee{
 	int      empId;
 	String   name;
 	int      salary;
