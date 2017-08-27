@@ -4,4 +4,5 @@ public interface BankGeneral {
 	public String getName();
 	public int getAge();
 	public Deposit getDeposit();
+	public int getBalance();
 }

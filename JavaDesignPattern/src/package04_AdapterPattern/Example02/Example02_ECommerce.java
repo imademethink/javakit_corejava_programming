@@ -6,7 +6,7 @@ public class Example02_ECommerce {
 		ProductDataOld productDataOld = new ProductDataOld();
 		productDataOld.setTitle("Mobile Cover");
 		productDataOld.setCost(250);
-		productDataOld.setMainImage("SimpleCover.jpg");
+		productDataOld.setMainImage("SimpleCover.jpg" + "\n");
 		
 		ProductDataGeneral pdg = new ProductData__Adapter(
 																	productDataOld,

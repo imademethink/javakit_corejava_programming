@@ -42,12 +42,16 @@ public class Example10_Baking{
 		Payee p21OtherBank = new OtherBank();
 		
 		PayeeProcess pp = new PayeeProcess();
+		
 		pp.add(p10SameBank);
 		pp.Commit("Harry Potter",501);
+		
 		pp.add(p11SameBank);
 		pp.Commit("Winsten Churchill",502);
+		
 		pp.add(p20OtherBank);
 		pp.Commit("Ted Mosby",901);
+		
 		pp.add(p21OtherBank);
 		pp.Commit("Lily Aldrin",902);
 		

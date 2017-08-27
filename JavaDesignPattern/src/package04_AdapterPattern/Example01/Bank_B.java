@@ -3,6 +3,7 @@ package package04_AdapterPattern.Example01;
 public class Bank_B implements BankGeneral{
 	private String name;
 	private int age;
+	private int balance;
 	private Deposit deposit;
 	
 	public String getName() {
@@ -22,5 +23,11 @@ public class Bank_B implements BankGeneral{
 	}
 	public void setDeposit(Deposit deposit) {
 		this.deposit = deposit;
+	}
+	public void setBalance(int balance) {
+		this.balance = balance;
+	}
+	public int getBalance() {
+		return balance;
 	}
 }

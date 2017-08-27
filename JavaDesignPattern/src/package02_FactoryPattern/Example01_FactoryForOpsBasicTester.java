@@ -53,7 +53,7 @@ class FactoryForOpsBasic{
 			case "float":
 				return new DerivedFloatOps();
 			case "string":
-				return new DerivedStringOps();				
+				return new DerivedStringOps();		
 			default:
 				return null;
 		}

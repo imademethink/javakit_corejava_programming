@@ -7,7 +7,7 @@ public class Employee__Adapter extends EmployeeNew implements Employee{
 		this.employeeOld = employeeOld2;
 		this.adapterData();
 	}
-	
+
 	private void adapterData(){
 		this.setName(employeeOld.getName());
 		this.setAge(Integer.valueOf(employeeOld.getAge()));

@@ -120,7 +120,7 @@ public class Example13_RecruitmentMngt {
 		System.out.println(jp);
         
 		JobPostDetail jp2 = new JobPostDetailBuilder()
-//				.setEmploymentType("Permenant")                                  // optional
+//				.setEmploymentType("Permanent")                                  // optional
 //				.setExpiryDate("30days")                                                    // optional
 //				.setJobLocation("New York")                                               // optional
 //				.setJoiningBonusAmount(100000.0f)                                 // optional

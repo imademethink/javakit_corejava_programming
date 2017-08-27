@@ -14,5 +14,6 @@ public class Bank__Adapter extends Bank_B implements BankGeneral{
 		Deposit deposit = new Deposit();
 		deposit.setDepositAmount(bank_A.getBalance());
 		this.setDeposit(deposit);
+		bank_A.setBalance(0);
 	}
 }

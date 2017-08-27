@@ -147,8 +147,8 @@ public class Example11_EmpMngt {
 //				.setAppraisalRating(5)                                        // optional
 				.setBankAccountNumber(4011111)
 //				.setCurrentAddress("10 Downing Street")       // optional
-//				.setDesignation("Principle Architect")              // optional
-//				.setEmploymentType("Permenant")                 // optional
+//				.setDesignation("Principle Actress")              // optional
+//				.setEmploymentType("Permanent")                 // optional
 				.setFirstName("Kate")
 				.setLastName("Winslate")
 //				.setPendingLeaveCount(10.5f)                           // optional

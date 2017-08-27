@@ -75,16 +75,16 @@ public class Example02_FactoryForOpsBasicTester {
 		SuperClass s1 = factory.getIntendedObject("int");
 		s1.addObject(2,5);
 		s1.compareObject(2, 5);
-		System.out.println("Type of object is : " +  s1.typeOfObject(2));  // this is not an abstract method
+		System.out.println("Type of object is : " +  s1.typeOfObject(2) + "\n");  // this is not an abstract method
 		
 		SuperClass s2 = factory.getIntendedObject("float");
 		s2.addObject(2.0f,5.0f);
 		s2.compareObject(2.0f, 5.0f);
-		System.out.println("Type of object is : " +  s2.typeOfObject(2.0f));  // this is not an abstract method
+		System.out.println("Type of object is : " +  s2.typeOfObject(2.0f) + "\n");  // this is not an abstract method
 		
 		SuperClass s3 = factory.getIntendedObject("string");
 		s3.addObject("two","nine");
 		s3.compareObject("two","nine");
-		System.out.println("Type of object is : " +  s3.typeOfObject("kitkat"));  // this is not an abstract method		
+		System.out.println("Type of object is : " +  s3.typeOfObject("kitkat") + "\n");  // this is not an abstract method		
 	}
 }

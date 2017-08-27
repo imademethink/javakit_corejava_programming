@@ -1,5 +1,7 @@
 package package01_SingletonPattern;
 
+// Double checked locking (to avoid extra overhead every time with the synchronized method in earlier example
+
 // Once an object is created synchronization is no longer useful because 
 // now amazon object will not be null and any sequence of operations will lead to consistent results.
 // So we will only acquire lock on the getInstance() once, when the obj is null.

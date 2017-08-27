@@ -6,6 +6,14 @@ public class Address {
 	private int postcode;
 	private String city;
 	
+	public Address(){}
+	
+	public Address(String streeName, int houseNumber, int postcode, String city) {
+			this.streeName = streeName;
+			this.houseNumber = houseNumber;
+			this.postcode = postcode;
+			this.city = city;
+	}
 	public String getStreeName() {
 		return streeName;
 	}
